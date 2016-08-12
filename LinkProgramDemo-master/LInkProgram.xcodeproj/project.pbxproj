@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E62BE6F1D5DB2170082E86B /* LSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E62BE6E1D5DB2170082E86B /* LSLabel.m */; };
+		A07400271053986583B751FA /* libPods-LInkProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43DB4F796BD63E54F3931D9 /* libPods-LInkProgram.a */; };
+		F26190F11C906C270001746E /* UILabel+exlabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F26190F01C906C270001746E /* UILabel+exlabel.m */; };
+		F2C2DF7C1C8AE3FF003C3F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF7B1C8AE3FF003C3F68 /* main.m */; };
+		F2C2DF7F1C8AE3FF003C3F68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF7E1C8AE3FF003C3F68 /* AppDelegate.m */; };
+		F2C2DF821C8AE3FF003C3F68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF811C8AE3FF003C3F68 /* ViewController.m */; };
+		F2C2DF851C8AE3FF003C3F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C2DF831C8AE3FF003C3F68 /* Main.storyboard */; };
+		F2C2DF871C8AE400003C3F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C2DF861C8AE400003C3F68 /* Assets.xcassets */; };
+		F2C2DF8A1C8AE400003C3F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C2DF881C8AE400003C3F68 /* LaunchScreen.storyboard */; };
+		F2C2DF931C8AE478003C3F68 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF921C8AE478003C3F68 /* MyLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4813A5E4EB74BFA733739BD6 /* Pods-LInkProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LInkProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-LInkProgram/Pods-LInkProgram.release.xcconfig"; sourceTree = "<group>"; };
+		8E62BE6D1D5DB2170082E86B /* LSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLabel.h; sourceTree = "<group>"; };
+		8E62BE6E1D5DB2170082E86B /* LSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLabel.m; sourceTree = "<group>"; };
+		B43DB4F796BD63E54F3931D9 /* libPods-LInkProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LInkProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C312F026C810EC804FB78329 /* Pods-LInkProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LInkProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LInkProgram/Pods-LInkProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		F26190EF1C906C270001746E /* UILabel+exlabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+exlabel.h"; sourceTree = "<group>"; };
+		F26190F01C906C270001746E /* UILabel+exlabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+exlabel.m"; sourceTree = "<group>"; };
+		F2C2DF771C8AE3FF003C3F68 /* LInkProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LInkProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2DF7B1C8AE3FF003C3F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C2DF7D1C8AE3FF003C3F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C2DF7E1C8AE3FF003C3F68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2C2DF801C8AE3FF003C3F68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2C2DF811C8AE3FF003C3F68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C2DF841C8AE3FF003C3F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C2DF861C8AE400003C3F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C2DF891C8AE400003C3F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C2DF8B1C8AE400003C3F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C2DF911C8AE478003C3F68 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		F2C2DF921C8AE478003C3F68 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C2DF741C8AE3FF003C3F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07400271053986583B751FA /* libPods-LInkProgram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98E65EF96793817CE86E55BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB4F796BD63E54F3931D9 /* libPods-LInkProgram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9124B169C926B047665A240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C312F026C810EC804FB78329 /* Pods-LInkProgram.debug.xcconfig */,
+				4813A5E4EB74BFA733739BD6 /* Pods-LInkProgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2C2DF6E1C8AE3FF003C3F68 = {
+			isa = PBXGroup;
+			children = (
+				F2C2DF791C8AE3FF003C3F68 /* LInkProgram */,
+				F2C2DF781C8AE3FF003C3F68 /* Products */,
+				C9124B169C926B047665A240 /* Pods */,
+				98E65EF96793817CE86E55BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C2DF781C8AE3FF003C3F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2DF771C8AE3FF003C3F68 /* LInkProgram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C2DF791C8AE3FF003C3F68 /* LInkProgram */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2DF7D1C8AE3FF003C3F68 /* AppDelegate.h */,
+				F2C2DF7E1C8AE3FF003C3F68 /* AppDelegate.m */,
+				F2C2DF801C8AE3FF003C3F68 /* ViewController.h */,
+				F2C2DF811C8AE3FF003C3F68 /* ViewController.m */,
+				8E62BE6D1D5DB2170082E86B /* LSLabel.h */,
+				8E62BE6E1D5DB2170082E86B /* LSLabel.m */,
+				F26190EF1C906C270001746E /* UILabel+exlabel.h */,
+				F26190F01C906C270001746E /* UILabel+exlabel.m */,
+				F2C2DF911C8AE478003C3F68 /* MyLabel.h */,
+				F2C2DF921C8AE478003C3F68 /* MyLabel.m */,
+				F2C2DF831C8AE3FF003C3F68 /* Main.storyboard */,
+				F2C2DF861C8AE400003C3F68 /* Assets.xcassets */,
+				F2C2DF881C8AE400003C3F68 /* LaunchScreen.storyboard */,
+				F2C2DF8B1C8AE400003C3F68 /* Info.plist */,
+				F2C2DF7A1C8AE3FF003C3F68 /* Supporting Files */,
+			);
+			path = LInkProgram;
+			sourceTree = "<group>";
+		};
+		F2C2DF7A1C8AE3FF003C3F68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2DF7B1C8AE3FF003C3F68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C2DF761C8AE3FF003C3F68 /* LInkProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2DF8E1C8AE400003C3F68 /* Build configuration list for PBXNativeTarget "LInkProgram" */;
+			buildPhases = (
+				A2B5B3587706956FFAE3592B /* [CP] Check Pods Manifest.lock */,
+				F2C2DF731C8AE3FF003C3F68 /* Sources */,
+				F2C2DF741C8AE3FF003C3F68 /* Frameworks */,
+				F2C2DF751C8AE3FF003C3F68 /* Resources */,
+				E3FB2008226543EA02555A9C /* [CP] Embed Pods Frameworks */,
+				C85B599B8B5E4632B63C9959 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LInkProgram;
+			productName = LInkProgram;
+			productReference = F2C2DF771C8AE3FF003C3F68 /* LInkProgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C2DF6F1C8AE3FF003C3F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JLHuu;
+				TargetAttributes = {
+					F2C2DF761C8AE3FF003C3F68 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F2C2DF721C8AE3FF003C3F68 /* Build configuration list for PBXProject "LInkProgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C2DF6E1C8AE3FF003C3F68;
+			productRefGroup = F2C2DF781C8AE3FF003C3F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C2DF761C8AE3FF003C3F68 /* LInkProgram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C2DF751C8AE3FF003C3F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2DF8A1C8AE400003C3F68 /* LaunchScreen.storyboard in Resources */,
+				F2C2DF871C8AE400003C3F68 /* Assets.xcassets in Resources */,
+				F2C2DF851C8AE3FF003C3F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2B5B3587706956FFAE3592B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85B599B8B5E4632B63C9959 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LInkProgram/Pods-LInkProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FB2008226543EA02555A9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LInkProgram/Pods-LInkProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C2DF731C8AE3FF003C3F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2DF821C8AE3FF003C3F68 /* ViewController.m in Sources */,
+				F2C2DF7F1C8AE3FF003C3F68 /* AppDelegate.m in Sources */,
+				F2C2DF931C8AE478003C3F68 /* MyLabel.m in Sources */,
+				8E62BE6F1D5DB2170082E86B /* LSLabel.m in Sources */,
+				F26190F11C906C270001746E /* UILabel+exlabel.m in Sources */,
+				F2C2DF7C1C8AE3FF003C3F68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2C2DF831C8AE3FF003C3F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C2DF841C8AE3FF003C3F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C2DF881C8AE400003C3F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C2DF891C8AE400003C3F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C2DF8C1C8AE400003C3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2C2DF8D1C8AE400003C3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C2DF8F1C8AE400003C3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C312F026C810EC804FB78329 /* Pods-LInkProgram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LInkProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hujiele.LInkProgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2C2DF901C8AE400003C3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4813A5E4EB74BFA733739BD6 /* Pods-LInkProgram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LInkProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hujiele.LInkProgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C2DF721C8AE3FF003C3F68 /* Build configuration list for PBXProject "LInkProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2DF8C1C8AE400003C3F68 /* Debug */,
+				F2C2DF8D1C8AE400003C3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C2DF8E1C8AE400003C3F68 /* Build configuration list for PBXNativeTarget "LInkProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2DF8F1C8AE400003C3F68 /* Debug */,
+				F2C2DF901C8AE400003C3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C2DF6F1C8AE3FF003C3F68 /* Project object */;
+}
