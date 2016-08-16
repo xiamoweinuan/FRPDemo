@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DE26F8CE68CD5F76119B983ED7B3A687E7CC34D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DE26F8CE68CD5F76119B983ED7B3A687E7CC34D0" : 0,
+    "291244994BDD700AE054D83E3B3BD3158FA1CBD2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FDE8D53E-E371-484C-A065-8BD5315B37A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DE26F8CE68CD5F76119B983ED7B3A687E7CC34D0" : "FRPDemo\/",
+    "291244994BDD700AE054D83E3B3BD3158FA1CBD2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LInkProgram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LinkProgramDemo-master\/LInkProgram.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiamoweinuan\/ReBoNew.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "291244994BDD700AE054D83E3B3BD3158FA1CBD2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiamoweinuan\/FRPDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE26F8CE68CD5F76119B983ED7B3A687E7CC34D0"
+    }
+  ]
+}

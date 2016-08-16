@@ -13,6 +13,8 @@
 #import "LSLabel.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
+
+#import "EWPButton.h"
 @interface ViewController ()
 
 @end
@@ -28,16 +30,32 @@
     
 
 
-  [LSLabel labelInitWith:^(LSLabel *label) {
-      label.
-      labelText(@"weqwewqeqw").
-      labelSuperView(self.view);
-  } withMasonryMake:^(MASConstraintMaker *make) {
-      make.left.equalTo (self.view);
-      make.top.equalTo(self.view);
-      make.size.mas_equalTo(CGSizeMake(200, 200));
-  }];
+//  [LSLabel labelInitWith:^(LSLabel *label) {
+//      label.
+//      labelText(@"weqwewqeqw").
+//      labelSuperView(self.view);
+//  } withMasonryMake:^(MASConstraintMaker *make) {
+//      make.left.equalTo (self.view);
+//      make.top.equalTo(self.view);
+//      make.size.mas_equalTo(CGSizeMake(200, 200));
+//  }];
     
+   EWPButton* button= [EWPButton butonInitWith:^(EWPButton *button) {
+       button.
+       buttonSuperView(self.view).
+       buttonBackgroundColor([UIColor redColor]);
+      
+
+        
+    } withMasonryMake:^(MASConstraintMaker *make) {
+        make.left.equalTo (self.view);
+        make.top.equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(200, 200));
+    }];
+    
+    button.buttonBlock = ^(EWPButton* sender){
+        
+    };
 }
 
 - (void)didReceiveMemoryWarning {

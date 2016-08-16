@@ -18,7 +18,7 @@
     };
 }
 
--(UILabel *(^)(CGRect))labelFrame{
+-(instancetype (^)(CGRect))labelFrame{
     return ^UILabel *(CGRect rect){
         self.frame = rect;
         return self;
